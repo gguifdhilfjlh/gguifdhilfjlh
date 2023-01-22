@@ -1,0 +1,128 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.500
+Frame.Position = UDim2.new(0.00974512845, 0, 0.506172836, 0)
+Frame.Size = UDim2.new(0, 376, 0, 373)
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.00974512752, 0, 0.506172836, 0)
+TextLabel.Size = UDim2.new(0, 376, 0, 30)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "ZeroTwo   X   Free "
+TextLabel.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel.TextSize = 14.000
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+TextButton.BorderColor3 = Color3.fromRGB(170, 0, 255)
+TextButton.Position = UDim2.new(0.0247376319, 0, 0.602469087, 0)
+TextButton.Size = UDim2.new(0, 17, 0, 17)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Esp"
+TextButton.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextButton.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WDNu2EgJ"))();
+end)
+
+TextLabel_2.Parent = ScreenGui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0374812596, 0, 0.591357946, 0)
+TextLabel_2.Size = UDim2.new(0, 75, 0, 33)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Esp"
+TextLabel_2.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel_2.TextSize = 14.000
+
+TextButton_2.Parent = ScreenGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(170, 0, 255)
+TextButton_2.Position = UDim2.new(0.0247376319, 0, 0.644444406, 0)
+TextButton_2.Size = UDim2.new(0, 17, 0, 17)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "A1"
+TextButton_2.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script.lua"))();
+end)
+
+TextLabel_3.Parent = ScreenGui
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0374812596, 0, 0.634567797, 0)
+TextLabel_3.Size = UDim2.new(0, 75, 0, 33)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Aimbot"
+TextLabel_3.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel_3.TextSize = 14.000
+
+TextButton_3.Parent = ScreenGui
+TextButton_3.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+TextButton_3.BorderColor3 = Color3.fromRGB(170, 0, 255)
+TextButton_3.Position = UDim2.new(0.0247376319, 0, 0.686419725, 0)
+TextButton_3.Size = UDim2.new(0, 17, 0, 17)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "S1"
+TextButton_3.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vYm9FLPu"))();
+end)
+
+TextLabel_4.Parent = ScreenGui
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0374812596, 0, 0.676543117, 0)
+TextLabel_4.Size = UDim2.new(0, 75, 0, 33)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Silent aim"
+TextLabel_4.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = ScreenGui
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.141679168, 0, 0.524691343, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 343)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = ""
+TextLabel_5.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = ScreenGui
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.00974512752, 0, 0.939506173, 0)
+TextLabel_6.Size = UDim2.new(0, 376, 0, 22)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "https://discord.gg/nAaZyM6T78"
+TextLabel_6.TextColor3 = Color3.fromRGB(170, 0, 255)
+TextLabel_6.TextSize = 14.000
