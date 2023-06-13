@@ -1143,9 +1143,8 @@ function library:AddSettings()
 	end)
 
 	local credits = tab:AddPanel("Credits")
-	credits:AddClipboardLabel("Kieran - Owner, Scripter", "https://projectevo.xyz/discord")
-	credits:AddClipboardLabel("RegularVynixu - Procrastination", "https://discord.gg/QYH4F7ks7m")
-	credits:AddClipboardLabel("||4151|| - Art Weeb", "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+	credits:AddClipboardLabel("DEV", "OREO#4104")
+	credits:AddClipboardLabel("Discord", "https://discord.gg/68FGMXydDf")
 
 	local misc = tab:AddPanel("Misc")
 	misc:AddToggle("Anti AFK", function(state)
