@@ -34,18 +34,18 @@ local whitelistedTypes = {
 local themes = {
 	selected = "Default",
 	Default = {
-		textForeground = Color3.fromRGB(235, 235, 235),
-		notifTextForeground = Color3.fromRGB(180, 180, 180),
-		imageForeground = Color3.fromRGB(235, 235, 235),
-		mainBackground = Color3.fromRGB(27, 27, 27),
-		topBackground = Color3.fromRGB(34, 34, 34),
-		panelBackground = Color3.fromRGB(34, 34, 34),
-		panelItemBackground = Color3.fromRGB(27, 27, 27),
-		toggleEnabled = Color3.fromRGB(15, 180, 85),
-		sliderHighlight = Color3.fromRGB(64, 64, 64),
-		notifTimeoutHighlight = Color3.fromRGB(72, 72, 72),
-		hoverEffect = Color3.fromRGB(48, 48, 48),
-		clickEffect = Color3.fromRGB(64, 64, 64)
+		textForeground = Color3.fromRGB(255, 255, 255),
+		notifTextForeground = Color3.fromRGB(176, 175, 178),
+		imageForeground = Color3.fromRGB(250, 30, 78),
+		mainBackground = Color3.fromRGB(18, 16, 25),
+		topBackground = Color3.fromRGB(9, 8, 13),
+		panelBackground = Color3.fromRGB(28, 23, 38),
+		panelItemBackground = Color3.fromRGB(18, 16, 25),
+		toggleEnabled = Color3.fromRGB(250, 30, 78),
+		sliderHighlight = Color3.fromRGB(250, 30, 78),
+		notifTimeoutHighlight = Color3.fromRGB(250, 30, 78),
+		hoverEffect = Color3.fromRGB(76, 19, 38),
+		clickEffect = Color3.fromRGB(46, 39, 63)
 	},
 	Discord = {
 		textForeground = Color3.fromRGB(220, 221, 222),
@@ -61,19 +61,19 @@ local themes = {
 		hoverEffect = Color3.fromRGB(52, 55, 60),
 		clickEffect = Color3.fromRGB(57, 60, 67)
 	},
-	OperaGX = {
-		textForeground = Color3.fromRGB(255, 255, 255),
-		notifTextForeground = Color3.fromRGB(176, 175, 178),
-		imageForeground = Color3.fromRGB(250, 30, 78),
-		mainBackground = Color3.fromRGB(18, 16, 25),
-		topBackground = Color3.fromRGB(9, 8, 13),
-		panelBackground = Color3.fromRGB(28, 23, 38),
-		panelItemBackground = Color3.fromRGB(18, 16, 25),
-		toggleEnabled = Color3.fromRGB(250, 30, 78),
-		sliderHighlight = Color3.fromRGB(250, 30, 78),
-		notifTimeoutHighlight = Color3.fromRGB(250, 30, 78),
-		hoverEffect = Color3.fromRGB(76, 19, 38),
-		clickEffect = Color3.fromRGB(46, 39, 63)
+	Default = {
+		textForeground = Color3.fromRGB(235, 235, 235),
+		notifTextForeground = Color3.fromRGB(180, 180, 180),
+		imageForeground = Color3.fromRGB(235, 235, 235),
+		mainBackground = Color3.fromRGB(27, 27, 27),
+		topBackground = Color3.fromRGB(34, 34, 34),
+		panelBackground = Color3.fromRGB(34, 34, 34),
+		panelItemBackground = Color3.fromRGB(27, 27, 27),
+		toggleEnabled = Color3.fromRGB(15, 180, 85),
+		sliderHighlight = Color3.fromRGB(64, 64, 64),
+		notifTimeoutHighlight = Color3.fromRGB(72, 72, 72),
+		hoverEffect = Color3.fromRGB(48, 48, 48),
+		clickEffect = Color3.fromRGB(64, 64, 64)
 	}
 }
 
@@ -286,7 +286,7 @@ end
 
 for i, v in next, themes do
 	if i ~= "selected" then
-		writefile("EvoV2\\Themes\\" .. i .. ".json", jsonEncodeTheme(v))
+		writefile("OREO\\Themes\\" .. i .. ".json", jsonEncodeTheme(v))
 	end
 end
 
