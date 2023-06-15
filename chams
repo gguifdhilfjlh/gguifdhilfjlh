@@ -13,7 +13,7 @@ continue
 end
 v.TextureId = ""
 end
-clone.Color = Color3.fromRGB(255,255,255)
+clone.Color = Color3.fromRGB(255,0,255)
 pcall(function()clone.Size = clone.Size * 0.7 clone.CanCollide = false end)
 clone.Parent = model
 rs.RenderStepped:connect(function()
@@ -34,13 +34,13 @@ local function chams(character)
    local cham = Instance.new("Highlight",model)
    cham.Name = "cham"
    cham.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop  
-   cham.OutlineColor = Color3.fromRGB(255,255,255)
-   cham.FillColor = Color3.fromRGB(255,255,255)
+   cham.OutlineColor = Color3.fromRGB(255,0,255)
+   cham.FillColor = Color3.fromRGB(255,0,255)
    cham.FillTransparency = 0
    cham.OutlineTransparency = 1
    local new = cham:Clone()
    new.Parent = character
-   new.FillColor = Color3.fromRGB(255,255,255)
+   new.FillColor = Color3.fromRGB(255,0,255)
    new.DepthMode = Enum.HighlightDepthMode.Occluded  
    for i,v in ipairs(character:GetChildren()) do
 -- if character has a head then
